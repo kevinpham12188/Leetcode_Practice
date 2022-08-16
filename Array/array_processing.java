@@ -1,6 +1,7 @@
 public class array_processing {
     public static void main(String[] args) {
-        System.out.println(number(new int[] {0, 1, 0, 1, 1, 0, 1, 1, 1}));
+        System.out.println(number(new int[] { 0, 1, 0, 1, 1, 0, 1, 1, 1 }));
+        System.out.println(indexFound(1, new int[] { 1, 2, 3, 4, 5 }));
     }
 
     // Given an array and a number. Return the index of the frist found element in
@@ -31,7 +32,26 @@ public class array_processing {
             } else {
                 count = 0;
             }
-        } return maxCount;
+        }
+        return maxCount;
+    }
+
+    // Given an array, find the last index of the found element in array
+    // [1, 2, 3, 4, 5], nums = 1
+    // i = 4, num = 5
+    // i = 3, num = 4
+    // i = 2, num = 3
+    // i = 1, num = 2
+    // i = 0, num = 1
+
+    public static int indexFound(int num, int[] arr) {
+        int n = arr.length;
+        for (int i = n - 1; i >= 0; i--) {
+            if (arr[i] == num) {
+                return i;
+            }
+        }
+        return -1;
     }
 
 }
