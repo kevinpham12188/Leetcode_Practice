@@ -1,6 +1,6 @@
 public class remove_element {
     public static void main(String[] args) {
-        System.out.println("Hello");
+        System.out.println(removeElement(new int[] {3, 2, 2, 3}, 3));
     }
 
     // nums = [3, 2, 2, 3], val = 3 => 2, nums = [2, 2, _, _]
