@@ -1,6 +1,6 @@
 public class merged_2_sorted_array {
     public static void main(String[] args) {
-        int[] myArray = mySortedArray(new int[] {1,4,5}, new int[] {2,9});
+        int[] myArray = mySortedArray(new int[] {1,2,3}, new int[] {2,5,6});
         for (int i = 0; i < myArray.length; i++) {
             System.out.println(myArray[i]);
         }
