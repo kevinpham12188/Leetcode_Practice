@@ -1,6 +1,9 @@
+import java.util.Arrays;
+// import java.util.Collections;
+
 public class sort_even_and_odd_indices {
     public static void main(String[] args) {
-        int[] sortedEven = sortEvenOdd(new int[] {4,1,2,3});
+        int[] sortedEven = sortEvenOdd2(new int[] { 4, 1, 2, 3 });
         for (int i = 0; i < sortedEven.length; i++) {
             System.out.println(sortedEven[i]);
         }
@@ -22,20 +25,58 @@ public class sort_even_and_odd_indices {
     public static int[] sortEvenOdd(int[] nums) {
         int swap;
         // Iterate through even indices
-        for (int i = 0; i < nums.length-2; i=i+2) {
-            if (i%2 == 0) {
+        for (int i = 0; i < nums.length - 2; i = i + 2) {
+            if (i % 2 == 0) {
                 swap = nums[i];
-                nums[i] = nums[i+2];
-                nums[i+2] = swap;
+                nums[i] = nums[i + 2];
+                nums[i + 2] = swap;
             }
         }
         // Iterate through odd indices
-        for (int j = 1; j < nums.length-2; j = j + 2) {
+        for (int j = 1; j < nums.length - 2; j = j + 2) {
             if (j % 2 != 0) {
                 swap = nums[j];
-                nums[j] = nums[j+2];
-                nums[j+2] = swap;
+                nums[j] = nums[j + 2];
+                nums[j + 2] = swap;
             }
+        }
+        return nums;
+    }
+
+    public static int[] sortEvenOdd2(int[] nums) {
+        int[] even;
+        int[] odd;
+        if (nums.length % 2 != 0) {
+            even = new int[nums.length / 2 + nums.length % 2];
+            odd = new int[nums.length / 2];
+        } else {
+            even = new int[nums.length / 2];
+            odd = new int[nums.length / 2];
+        }
+        int k = 0;
+        int f = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i % 2 == 0) {
+                even[k] = nums[i];
+                k++;
+            } else {
+                odd[f] = nums[i];
+                f++;
+            }
+        }
+        Arrays.sort(even);
+        Arrays.sort(odd);
+        int o = 0;
+        int m = 1;
+        for (int i = 0; i < nums.length; i++) {
+            if (i % 2 == 0) {
+                nums[i] = even[o];
+                o++;
+            }
+        }
+        for (int i = odd.length - 1; i >= 0; i--) {
+            nums[m] = odd[i];
+            m = m + 2;
         }
         return nums;
     }
