@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class valid_anagram {
     public static void main(String[] args) {
-        System.out.println("test");
+        System.out.println(isAnagram(new String("anagram"), new String("nagaram")));
     }
 
     public static boolean isAnagram(String s, String t) {
