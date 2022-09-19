@@ -33,6 +33,7 @@ public class add_strings {
             j--;
         }
 
+        // Case 99 + 1 = 100
         if (carry == 1) {
             myStringBuilder.append(1);
         }
