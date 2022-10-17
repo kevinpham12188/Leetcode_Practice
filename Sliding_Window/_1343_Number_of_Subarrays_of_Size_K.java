@@ -1,4 +1,4 @@
-// package Sliding_Window;
+package Sliding_Window;
 
 public class _1343_Number_of_Subarrays_of_Size_K {
     public static void main(String[] args) {
@@ -25,6 +25,6 @@ public class _1343_Number_of_Subarrays_of_Size_K {
                 j++;
             }
         }
-        return sum;
+        return count;
     }
 }
