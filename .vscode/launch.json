@@ -1,0 +1,385 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Build_Array_from_Permutation",
+            "request": "launch",
+            "mainClass": "Build_Array_from_Permutation",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jewels_and_Stones",
+            "request": "launch",
+            "mainClass": "Jewels_and_Stones",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contiguous_Array",
+            "request": "launch",
+            "mainClass": "Prefix_Sum.Contiguous_Array",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contiguous_Array_Sum",
+            "request": "launch",
+            "mainClass": "Prefix_Sum.Contiguous_Array_Sum",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subarray_sum_divisible_by_k",
+            "request": "launch",
+            "mainClass": "Prefix_Sum.Subarray_sum_divisible_by_k",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1109_corporate_flight_bookings",
+            "request": "launch",
+            "mainClass": "Prefix_Sum._1109_corporate_flight_bookings",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch product_of_array_except_self",
+            "request": "launch",
+            "mainClass": "Prefix_Sum.product_of_array_except_self",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1004_Max_Consecutive_Ones_III",
+            "request": "launch",
+            "mainClass": "Sliding_Window._1004_Max_Consecutive_Ones_III",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1343_Number_of_Subarrays_of_Size_K",
+            "request": "launch",
+            "mainClass": "Sliding_Window._1343_Number_of_Subarrays_of_Size_K",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1358_Number_of_Substrings_Containing_All_Three_Characters",
+            "request": "launch",
+            "mainClass": "Sliding_Window._1358_Number_of_Substrings_Containing_All_Three_Characters",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1456_Maximum_Number_of_Vowels_in_Substring_of_Given_Length",
+            "request": "launch",
+            "mainClass": "Sliding_Window._1456_Maximum_Number_of_Vowels_in_Substring_of_Given_Length",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _209_Minimum_Size_Subarray_Sum",
+            "request": "launch",
+            "mainClass": "Sliding_Window._209_Minimum_Size_Subarray_Sum",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _28_find_indx_of_first_occurence_in_string",
+            "request": "launch",
+            "mainClass": "Sliding_Window._28_find_indx_of_first_occurence_in_string",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _340_longest_substring_with_most_K_distinct_characters",
+            "request": "launch",
+            "mainClass": "Sliding_Window._340_longest_substring_with_most_K_distinct_characters",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch _904_Fruit_Into_Baskets",
+            "request": "launch",
+            "mainClass": "Sliding_Window._904_Fruit_Into_Baskets",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch add_strings",
+            "request": "launch",
+            "mainClass": "add_strings",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch array_filtering",
+            "request": "launch",
+            "mainClass": "array_filtering",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch array_processing",
+            "request": "launch",
+            "mainClass": "array_processing",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch check_if_two_string_array_equivalent",
+            "request": "launch",
+            "mainClass": "check_if_two_string_array_equivalent",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch concatenation_of_array",
+            "request": "launch",
+            "mainClass": "concatenation_of_array",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch contains_duplicate_ii",
+            "request": "launch",
+            "mainClass": "contains_duplicate_ii",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch decode_the_message",
+            "request": "launch",
+            "mainClass": "decode_the_message",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch duplicate_zeroes",
+            "request": "launch",
+            "mainClass": "duplicate_zeroes",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_number_with_even_digits",
+            "request": "launch",
+            "mainClass": "find_number_with_even_digits",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_second_largest_digit",
+            "request": "launch",
+            "mainClass": "find_second_largest_digit",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch first_letter_to_appear_twice",
+            "request": "launch",
+            "mainClass": "first_letter_to_appear_twice",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch four_sum",
+            "request": "launch",
+            "mainClass": "four_sum",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch how_many_numbers_smaller",
+            "request": "launch",
+            "mainClass": "how_many_numbers_smaller",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch insert_number",
+            "request": "launch",
+            "mainClass": "insert_number",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch intersection_of_two_array_ii",
+            "request": "launch",
+            "mainClass": "intersection_of_two_array_ii",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch isomorphic_strings",
+            "request": "launch",
+            "mainClass": "isomorphic_strings",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch lucky_number_in_a_matrix",
+            "request": "launch",
+            "mainClass": "lucky_number_in_a_matrix",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch matrix_diagonal_sum",
+            "request": "launch",
+            "mainClass": "matrix_diagonal_sum",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch maximum_number_of_words_found_in_sentences",
+            "request": "launch",
+            "mainClass": "maximum_number_of_words_found_in_sentences",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch merge_2_sorted_arrays_LC",
+            "request": "launch",
+            "mainClass": "merge_2_sorted_arrays_LC",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch merged_2_sorted_array",
+            "request": "launch",
+            "mainClass": "merged_2_sorted_array",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiply_strings",
+            "request": "launch",
+            "mainClass": "multiply_strings",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch number_of_arithmetic_triplets",
+            "request": "launch",
+            "mainClass": "number_of_arithmetic_triplets",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch plus_one",
+            "request": "launch",
+            "mainClass": "plus_one",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch remove_duplicates",
+            "request": "launch",
+            "mainClass": "remove_duplicates",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch remove_element",
+            "request": "launch",
+            "mainClass": "remove_element",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch return_sum_of_1d_array",
+            "request": "launch",
+            "mainClass": "return_sum_of_1d_array",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse_string",
+            "request": "launch",
+            "mainClass": "reverse_string",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch smallest_value_of_the_Rearranged_Number",
+            "request": "launch",
+            "mainClass": "smallest_value_of_the_Rearranged_Number",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch sort_even_and_odd_indices",
+            "request": "launch",
+            "mainClass": "sort_even_and_odd_indices",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch square_of_an_array",
+            "request": "launch",
+            "mainClass": "square_of_an_array",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch subarray_sum_equals_k",
+            "request": "launch",
+            "mainClass": "subarray_sum_equals_k",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_of_unique_elements",
+            "request": "launch",
+            "mainClass": "sum_of_unique_elements",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch three_sum",
+            "request": "launch",
+            "mainClass": "three_sum",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch transpose_matrix",
+            "request": "launch",
+            "mainClass": "transpose_matrix",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch two_sum_ii",
+            "request": "launch",
+            "mainClass": "two_sum_ii",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch valid_anagram",
+            "request": "launch",
+            "mainClass": "valid_anagram",
+            "projectName": "LeetCode_84398828"
+        },
+        {
+            "type": "java",
+            "name": "Launch valid_triangle_number",
+            "request": "launch",
+            "mainClass": "valid_triangle_number",
+            "projectName": "LeetCode_84398828"
+        }
+    ]
+}
