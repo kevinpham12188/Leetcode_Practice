@@ -1,4 +1,4 @@
-package String;
+
 
 public class _8_String_to_Integer_atoi {
     public static void main(String[] args) {
