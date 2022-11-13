@@ -17,8 +17,8 @@ public class _13_Roman_to_Integer {
         myMap.put('M', 1000);
 
         int sum = myMap.get(s.charAt(s.length()-1));
-        for (int i = s.length() - 2; i > 0; i--) {
-            if (myMap.get(s.charAt(i)) < sum) {
+        for (int i = s.length() - 2; i >= 0; i--) {
+            if (myMap.get(s.charAt(i)) < myMap.get(s.charAt(i+1))) {
                 sum -= myMap.get(s.charAt(i));
             } else {
                 sum += myMap.get(s.charAt(i));
