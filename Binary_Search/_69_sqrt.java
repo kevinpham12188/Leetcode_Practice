@@ -5,16 +5,22 @@ public class _69_sqrt {
         System.out.println(mySqrt(10));
     }
     public static int mySqrt(int x) {
+        // Edge case
+        if (x < 2) {
+            return x;
+        }
         int lo = 0;
         // The square root of every number will never be greater than itself divided by 2
         int hi = x / 2; 
         int ans = -1;
         while (lo <= hi) {
             int mid = (lo + hi) / 2;
-            if (mid * mid == x) {
+            // Create a long variable to deal with long
+            long a = (long) mid * mid;
+            if (a == x) {
                 return mid;
             }
-            if (mid * mid < x) {
+            if (a < x) {
                 ans = mid;
                 lo = mid + 1;
             }
