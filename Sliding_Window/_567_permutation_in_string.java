@@ -40,7 +40,7 @@ public class _567_permutation_in_string {
     public static boolean isPermutation(Map<Character, Integer> map, String s) {
         // Add all characters of String s to a map
         Map<Character, Integer> myMap = new HashMap<>();
-        for (int i = 0; i > s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             myMap.put(s.charAt(i), myMap.getOrDefault(s.charAt(i), 0) + 1);
         }
         if (myMap.size() != map.size()) {
